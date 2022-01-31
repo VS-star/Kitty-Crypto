@@ -7,10 +7,8 @@ export default function Home() {
   const {listings} = useApiListings()
   return (
     <div>
-    222333
       <PageTitle>Store</PageTitle>
       <main>
-      asdfasdfsd
         {listings?.length > 0 && (
           <div className="divide-y divide-solid">
             <LatestStoreItems items={listings} />
